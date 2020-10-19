@@ -1,7 +1,7 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
-theme = "airspace-hugo"
+baseURL = "http://workationtribe.id"
+title = "Workation Tribe | Work while travel"
+theme = "wt"
 # post pagination
 paginate = "4"
 # post excerpt
@@ -212,90 +212,90 @@ URL = "contact"
 weight = 6
 
 ################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
+[Languages.id]
+languageName = "ID"
+languageCode = "id-id"
+contentDir = "content/id"
 weight = 2
 # copyright
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
 
 
-######################### france navigation #############################
+######################### ID navigation #############################
 # main menu
-[[Languages.fr.menu.main]]
+[[Languages.id.menu.main]]
 name = "Accueil"
 URL = "/"
 weight = 1
 
-[[Languages.fr.menu.main]]
+[[Languages.id.menu.main]]
 name = "À propos"
 URL = "about"
 weight = 2
 
-[[Languages.fr.menu.main]]
+[[Languages.id.menu.main]]
 name = "Projet"
 URL = "project"
 weight = 3
 
-[[Languages.fr.menu.main]]
+[[Languages.id.menu.main]]
 name = "Un service"
 URL = "service"
 weight = 4
 
-[[Languages.fr.menu.main]]
+[[Languages.id.menu.main]]
 name = "Blog"
 URL = "blog"
 weight = 5
 
-[[Languages.fr.menu.main]]
+[[Languages.id.menu.main]]
 weight = 6
 name = "Pages"
 hasChildren = true
 
-  [[Languages.fr.menu.main]]
+  [[Languages.id.menu.main]]
   parent = "Pages"
   name = "FAQ"
   URL = "faq"
 
-  [[Languages.fr.menu.main]]
+  [[Languages.id.menu.main]]
   parent = "Pages"
   name = "Tarification"
   URL = "pricing"
   
-[[Languages.fr.menu.main]]
+[[Languages.id.menu.main]]
 name = "Contact"
 URL = "contact"
 weight = 7
 
 
 # footer menu
-[[Languages.fr.menu.footer]]
+[[Languages.id.menu.footer]]
 name = "About"
 URL = "about"
 weight = 1
 
-[[Languages.fr.menu.footer]]
+[[Languages.id.menu.footer]]
 name = "Project"
 URL = "project"
 weight = 2
 
-[[Languages.fr.menu.footer]]
+[[Languages.id.menu.footer]]
 name = "Service"
 URL = "service"
 weight = 3
 
-[[Languages.fr.menu.footer]]
+[[Languages.id.menu.footer]]
 name = "Pricing"
 URL = "pricing"
 weight = 4
 
-[[Languages.fr.menu.footer]]
+[[Languages.id.menu.footer]]
 name = "FAQ"
 URL = "faq"
 weight = 5
 
-[[Languages.fr.menu.footer]]
+[[Languages.id.menu.footer]]
 name = "Contact"
 URL = "contact"
 weight = 6
